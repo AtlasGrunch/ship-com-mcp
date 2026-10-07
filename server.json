@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.AtlasGrunch/ship-com",
+  "title": "Ship.com",
+  "description": "Compare rates, manage orders, buy labels, schedule pickups, and report on shipping.",
+  "repository": {
+    "url": "https://github.com/AtlasGrunch/ship-com-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://www.ship.com/api/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.ship.com/mcp"
+    }
+  ]
+}
